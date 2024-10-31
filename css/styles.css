@@ -10922,7 +10922,7 @@ video.bg-video {
     padding-bottom: 0;
   }
   .masthead:before {
-    transform: skewX(-9deg);
+    transform: skewX(9deg);
     transform-origin: top right;
   }
   .masthead .masthead-content {
