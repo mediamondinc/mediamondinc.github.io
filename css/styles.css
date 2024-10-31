@@ -10832,6 +10832,8 @@ html {
 body {
   height: 100%;
   position: relative;
+  background: url("../assets/img/banner.jpg") #2a5555 no-repeat center center scroll;
+    background-size: cover;
 }
 body:before {
   content: "";
@@ -10845,16 +10847,9 @@ body:before {
   z-index: 1;
 }
 
-video.bg-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  z-index: 0;
+img.bg-video {
+  background: url("../assets/img/banner.jpg") #2a5555 no-repeat center center scroll;
+    background-size: cover;
 }
 
 @media (pointer: coarse) and (hover: none) {
